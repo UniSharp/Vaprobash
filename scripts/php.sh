@@ -25,9 +25,9 @@ if [[ $2 == "true" ]]; then
 else
     echo ">>> Installing PHP"
 
-    sudo add-apt-repository -y ppa:ondrej/php5
+    #sudo add-apt-repository -y ppa:ondrej/php5
 
-    sudo apt-key update
+    #sudo apt-key update
     sudo apt-get update
 
     # Install PHP
